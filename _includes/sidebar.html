@@ -44,6 +44,18 @@
       </li>
       {% else %} {% endif %}
 
+      {% if site.telegram_channel %}
+      <li class="social-profiles-item">
+        <a href="{{ site.telegram_channel }}" class="social-profiles-link"><i class="ion ion-md-paper-plane"></i></a>
+      </li>
+      {% else %} {% endif %}
+
+      {% if site.telegram_group %}
+      <li class="social-profiles-item">
+        <a href="{{ site.telegram_channel }}" class="social-profiles-link"><i class="ion ion-md-paper-plane"></i></a>
+      </li>
+      {% else %} {% endif %}
+
       {% if site.pinterest %}
       <li class="social-profiles-item">
         <a href="{{ site.pinterest }}" class="social-profiles-link"><i class="ion ion-logo-pinterest"></i></a>
